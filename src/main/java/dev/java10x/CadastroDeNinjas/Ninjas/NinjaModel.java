@@ -1,4 +1,4 @@
-package dev.java10x.CadastroDeNinjas.Model;
+package dev.java10x.CadastroDeNinjas.Ninjas;
 
 
 import jakarta.persistence.*;
@@ -23,7 +23,6 @@ public class NinjaModel {
         this.email = email;
         this.idade = idade;
     }
-
 
     public String getNome() {
         return nome;
